@@ -11,25 +11,27 @@
 <body>
     <header>
         <div class="header-container">
-            <a href="../index.html"><img src="../img/LOGO UJGH 2024.png" alt="logo universidad" class="logo"></a>
+            <a href="index.html"><img src="../img/LOGO UJGH 2024.png" alt="logo universidad" class="logo"></a>
             <nav class="main-nav">
-                <ul class="nav-items">
-                    <li><a href="../extension.html" class="nav-link" ><i class="fas fa-graduation-cap"></i> Extensión</a></li>
+                <ul class="nav-items" id="navItems">
+                    <li><a href="../extension.html" class="nav-link"><i class="fas fa-graduation-cap"></i> Extensión</a></li>
                     <li class="dropdown">
-                        <a href="#" class="nav-link" id="sele"><i class="fas fa-chart-line"></i> Desarrollo <i class="fas fa-chevron-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="deporte.html" >Deporte</a></li>
+                        <button class="nav-link dropdown-btn" id="dropdownToggle">
+                            <i class="fas fa-chart-line"></i> Desarrollo <i class="fas fa-chevron-down dropdown-icon"></i>
+                        </button>
+                        <ul class="dropdown-menu" id="dropdownMenu">
+                            <li><a href="deporte.html">Deporte</a></li>
                             <li><a href="orientacion.html">Orientación</a></li>
                             <li><a href="psicologia.html">Psicología</a></li>
-                            <li><a href="unipdis.html" id="sele">UNIPDIS</a></li>
+                            <li><a href="unipdis.html">UNIPDIS</a></li>
                         </ul>
                     </li>
                     <li><a href="../servicioComunitario.html" class="nav-link"><i class="fas fa-hands-helping"></i> Servicio Comunitario</a></li>
                 </ul>
             </nav>
-            <div class="mobile-menu">
+            <button class="mobile-menu" id="mobileMenu">
                 <i class="fas fa-bars"></i>
-            </div>
+            </button>
         </div>
     </header>
 
@@ -117,5 +119,6 @@
             </div>
         </div>
     </main>
+    <script src="../menu.js"></script>
 </body>
 </html>
