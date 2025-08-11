@@ -264,9 +264,15 @@ header {
         display: flex;
     }
     
+    .nav-link{
+        background: none;
+        border: none;
+    }
     .mobile-menu {
         display: block;
         position: absolute;
+        background: none;
+        border: none;
         top: 20px;
         right: 20px;
     }
@@ -281,6 +287,7 @@ header {
         box-shadow: none;
         border-radius: 0;
         animation: none;
+        border: none;
     }
     
     .dropdown-menu a {
