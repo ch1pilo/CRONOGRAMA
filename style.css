@@ -88,6 +88,7 @@ header {
 
 .dropdown {
     position: relative;
+    border-radius: 5px;
 }
 
 .dropdown-menu {
@@ -240,6 +241,10 @@ header {
 .date {
     font-size: 14px;
     opacity: 0.9;
+}
+
+#selec{
+    border-bottom: solid 2px #003366;
 }
 
 @keyframes fadeIn {
