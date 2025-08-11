@@ -13,11 +13,11 @@
         <div class="header-container">
             <a href="index.html"><img src="img/LOGO UJGH 2024.png" alt="logo universidad" class="logo"></a>
             <nav class="main-nav">
-                <ul class="nav-items">
+                <ul class="nav-items" id="navItems">
                     <li><a href="extension.html" class="nav-link"><i class="fas fa-graduation-cap"></i> Extensión</a></li>
                     <li class="dropdown">
-                        <a href="#" class="nav-link"><i class="fas fa-chart-line"></i> Desarrollo <i class="fas fa-chevron-down"></i></a>
-                        <ul class="dropdown-menu">
+                        <a href="#" class="nav-link" id="dropdownToggle"><i class="fas fa-chart-line"></i> Desarrollo <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu" id="dropdownMenu">
                             <li><a href="desarrollo/deporte.html">Deporte</a></li>
                             <li><a href="desarrollo/orientacion.html">Orientación</a></li>
                             <li><a href="desarrollo/psicologia.html">Psicología</a></li>
@@ -27,7 +27,7 @@
                     <li><a href="servicioComunitario.html" class="nav-link"><i class="fas fa-hands-helping"></i> Servicio Comunitario</a></li>
                 </ul>
             </nav>
-            <div class="mobile-menu">
+            <div class="mobile-menu" id="mobileMenu">
                 <i class="fas fa-bars"></i>
             </div>
         </div>
@@ -826,5 +826,7 @@
            
         </div>
     </main>
+    <!-- ... otros elementos ... -->
+    <script src="menu.js" defer></script>
 </body>
 </html>
